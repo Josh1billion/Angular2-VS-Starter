@@ -31,6 +31,8 @@
     <TypeScriptCompile Include="app\main.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.component.scss" />
+    <Content Include="global.scss" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
