@@ -4,3 +4,5 @@ obj/
 typings/
 *.map
 app/**/*.js
+app/**/*.css
+global.css
