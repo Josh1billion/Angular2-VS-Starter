@@ -2,7 +2,7 @@
   "name": "angular2-vs-starter",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run sass:w\" \"npm run lite\"",
+    "start": "concurrently \"npm run tsc:w\" \"npm run sass:w\" \"npm run lite\"",
     "lite": "lite-server",
     "postinstall": "typings install",
     "sass:w": "node-sass -w ./ -o ./",
